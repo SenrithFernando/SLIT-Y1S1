@@ -1,3 +1,8 @@
+// Document Link : 
+// https://drive.google.com/file/d/1YL6cGLuzaLqnYWtgN-wDNdQpA6Z5yNrZ/view?usp=sharing
+
+
+
 #include <stdio.h>
 int main(void){
 	int typeOfCustomer, billAmount, unit, units;
