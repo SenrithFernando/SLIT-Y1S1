@@ -15,7 +15,7 @@ int main() {
 
     // Reverse the elements of the array
     for (j = 0; j < i / 2; j++) {
-        printf("%d\t%d\n",i,j);
+        //printf("%d\t%d\n",i,j);
         temp = strArr[j];
         strArr[j] = strArr[i - j - 1];
         strArr[i - j - 1] = temp;
