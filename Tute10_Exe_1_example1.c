@@ -1,3 +1,7 @@
+// a) Create a file called “number.dat” using the file editor.
+// b) Type set of numbers and save those in the file.
+// a. e.g : 21 43 76 98 40
+
 #include <stdio.h>
 
 int main(void){
