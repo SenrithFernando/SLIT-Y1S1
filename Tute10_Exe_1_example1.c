@@ -29,11 +29,25 @@ int main(void){
     }
 
     if(flag==0){
-        fprintf(filePointer,"%d",num);
+        fprintf(filePointer," %d ",num);
         printf("Number is added to the file",num);
     }
 
     fclose(filePointer); //closing file
 
+    filePointer=fopen("number.dat","r");
+
+    if(filePointer==NULL){
+        printf("Cant open File because no data in file.\n");
+        return -1;
+    }
+
+    while (fscanf(filePointer, "%d", &numFrmFile) == 1) {
+        printf("%d ", numFrmFile);
+    }
+
+	fclose(filePointer);
+
     return 0;
 }
+
